@@ -9,13 +9,13 @@ if (system.args.length === 1) {
 
 t = Date.now();
 address = system.args[1];
+console.log('Undercover pursuit in progress... Baby');
 page.open(address, function(status) {
   if (status !== 'success') {
-    console.log('FAIL to load the address');
+    console.log('Damn, I tried but this happened: ' + status);
   } else {
     t = Date.now() - t;
-    console.log('Loading ' + system.args[1]);
-    console.log('Loading time ' + t + ' msec');
+    console.log('Ohhh, yeahhhh. Loaded in: ' + t + ' msec.');
   }
   phantom.exit();
 });

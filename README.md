@@ -19,10 +19,12 @@
       \::::::/    /             |::|   |                \:::\    \ 
        \::::/    /              \::|   |                 \:::\____\
         \::/____/                \:|   |                  \::/    /
-         ~~                       \|___|                   \/____/                                                                  
+         ~~                       \|___|                   \/____/
+         
+         TINY WEBSITE CHECKS, WITH SASSY RESPONSES
+```
 
-                    TINY WEBSITE CHECKS, WITH SASSY RESPONSES
-
-Example
+## Usage
+```bash
 docker run automationwizards/url loadspeed.js https://google.ca
 ```

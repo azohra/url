@@ -4,5 +4,6 @@ RUN apk-install curl \
        | tar xz -C /
 WORKDIR /tmp
 COPY loadspeed.js loadspeed.js
+COPY loadsuccess.js loadsuccess.js
 ENTRYPOINT ["/usr/local/bin/phantomjs"]
 
